@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+  </head>
+  <body>
+
+    <!-- 
+    md :
+    
+    -->
+    <div
+      id="main"
+      class="w-full h-screen flex items-center justify-center bg-zinc-900"
+    >
+      <div
+        class="p-4 px-10 w-full md:w-max md:min-w-96 md:max-w-[30rem] h-full md:h-max md:min-h-[60vh] bg-[#163445] text-white md:rounded-2xl"
+      >
+        <h1
+          class="text-2xl text-center font-medium text-purple-500 mt-4 md:mb-0 mb-10 uppercase"
+        >
+          Javascript Quiz </h1>
+        <div id="qna" class="">
+          <div id="question" class="my-4 text-lg font-semibold">
+            
+          </div>
+          <div id="answers">
+            
+          </div>
+          <button
+          id="submit"
+            class="bg-purple-600 hidden px-10 py-2 my-6 font-medium uppercase hover:bg-purple-500 duration-300 rounded-full mx-auto block"
+          >
+            Submit
+          </button>
+        </div>
+
+        <div id="score-board" class="flex flex-col items-center justify-center gap-4 mt-8">
+        </div>
+
+      </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
